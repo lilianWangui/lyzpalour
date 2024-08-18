@@ -22,7 +22,7 @@ if (isset($_POST['book'])) {
     <title>Book Hairstyle</title>
 </head>
 <body>
-    <h1>Book a Hairstyle</h1>
+    <h1 style="color:red;">Book a Hairstyle</h1>
     <form method="POST" action="">
         <label for="client_name">Client Name:</label>
         <input type="text" id="client_name" name="client_name" required>
